@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Title</title>
+		<style>
+		p::first-line {
+			font-size: 1.2rem;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Heading</h1>
+		<div class="classify" dir="ltr" id="element">
+			<p><a href="#">Hello</a> World</p>
+		</div>
+		<p>Insert <strong>Content</strong> Here</p>
+		<ol>
+			<li>One</li>
+			<li>Two<ol>
+					<li>One</li>
+					<li>Two</li>
+					<li>Three</li>
+				</ol>
+			</li>
+			<li>Three</li>
+		</ol>
+		<ul>
+			<li>List</li>
+			<li>List</li>
+		</ul>
+		<form>
+			<label for="name">Name</label>
+			<input name="name" type="text" autocomplete="name" placeholder="Name" required>
+			<input name="empDate" type="date" disabled>
+			<label for="age">Your age: (18+)</label>
+			<input name="age" type="number" value="5" min="18">
+			<label for="dep">Departure Date: (Whole year 2022 is acceptable)</label>
+    		<input name="dep" type="date" min="2022-01-01" max="2022-12-31" value="2025-05-05">
+			<label for="newsletter"><input name="newsletter" type="checkbox" checked> Personalized newsletter.</label>
+			<textarea spellcheck="true"></textarea>
+			<button>Subscribe</button>
+			<input type="file" name="avatar" accept="image/png, image/jpeg">
+		</form>
+		<img src="image.jpg" alt="Elephant at sunset">
+		<table border="1">
+			<colgroup>
+				<col span="2" />
+				<col class="selected" />
+			</colgroup>
+			<tbody>
+				<caption class="star">Caption <span class=".smallcaps">ABOVE</span></caption>
+				<tr>
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+				</tr>
+				<tr>
+					<td colspan="2">D</td>
+					<td>E</td>
+				</tr>
+				<tr>
+					<td>F</td>
+					<td colspan="2">G</td>
+				</tr>
+			</tbody>
+		</table>
+		<q>To be or not to be. That's the question!</q>
+		<ruby>
+			<rb>This is a long text to check</rb>
+			<rp>（</rp><rt>short ruby</rt><rp>）</rp>
+		</ruby>
+		<audio controls>
+			<source src="audio.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+		<video height="200" width="250">
+			<source src="video.mp4" type="video/mp4">
+			This browser does not support the HTML5 video element.
+		</video>
+		<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
+			<text x="10" y="75">stroke in front</text>
+			<text x="10" y="150" class="stroke-behind">stroke behind</text>
+		</svg>
+	</body>
+</html>
