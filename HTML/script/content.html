@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Title</title>
+	</head>
+	<body>
+		<p>Content</p>
+		<script>
+			const myContent = document.querySelector("body");
+			const shadowroot = myContent.createShadowRoot();
+			shadowroot.innerHTML = '<content select="p"></content>';
+		</script>
+	</body>
+</html>
