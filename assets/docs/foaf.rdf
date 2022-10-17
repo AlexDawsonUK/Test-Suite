@@ -1,0 +1,5 @@
+<foaf:person rdf:about="#Name" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+	<foaf:name>Name</foaf:name>
+	<foaf:homepage rdf:resource="https://domain.com/">
+	<foaf:logo rdf:resource="https://domain.com/images/image.png">
+</foaf:person>

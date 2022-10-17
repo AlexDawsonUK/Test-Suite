@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+	<head>
+		<title>Title</title>
+	</head>
+	<body>
+		<outline text="Category">
+			<outline text="Useful Website" type="link" url="https://domain.com"/>
+		</outline>
+	</body>
+</opml>
