@@ -1,5 +1,0 @@
-# carbon.txt - Verify the Web's Green Infrastructure
-
-[upstream]
-# URL (Host) Datacenter (Location)
-domain.com london

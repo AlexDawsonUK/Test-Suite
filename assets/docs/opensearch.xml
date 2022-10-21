@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-	<ShortName>Title</ShortName>
-	<Description>Description.</Description>
-	<Url type="text/html" template="http://domain.com/search?q={searchTerms}&amp;pw={startPage?}"/>
-</OpenSearchDescription>
