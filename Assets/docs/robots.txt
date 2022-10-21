@@ -1,0 +1,4 @@
+# robots.txt - Search Engines List for this Website
+User-agent: *
+Disallow: /cgi-bin/
+Sitemap: https://domain.com/sitemap.xml

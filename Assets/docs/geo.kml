@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+	<name>Location</name>
+	<description>Description</description>
+	<Style id="pin"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon></IconStyle></Style>
+	<Placemark>
+		<LookAt>
+			<longitude>-0.00000</longitude>
+			<latitude>00.000000</latitude>
+			<altitude>0</altitude>
+			<tilt>0</tilt>
+			<range>5500</range>
+		</LookAt>
+		<styleUrl>#pin</styleUrl>
+		<Point><coordinates>-0.00000,00.000000,0</coordinates></Point>
+	</Placemark>
+</Document>
+</kml>

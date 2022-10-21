@@ -1,0 +1,4 @@
+# ads.txt - Approved Advertisers for this Website
+
+# URL (Advertiser), Account ID, DIRECT / RESELLER, Advert ID
+domain.com, 12345, DIRECT, f794e0a46588c21f

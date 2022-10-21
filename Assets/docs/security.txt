@@ -1,0 +1,4 @@
+# security.txt - Security Policy for this Website
+
+Contact: https://domain.com/contact.html
+Expires: Thu, 31 Dec 2022 18:37:07 -0800
